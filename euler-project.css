@@ -1,0 +1,15 @@
+body {
+	font-family: monospace;
+}
+
+
+.problem div {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.problem div .solution {
+	color: #259f19;
+	font-weight: bold;
+	text-align: center;
+}
