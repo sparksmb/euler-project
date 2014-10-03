@@ -1,3 +1,6 @@
+/*jslint sloppy: true */
+/*global isEven */
+
 /********** Conventional Apporach ***********/
 function prob2Conventional(max) {
 	var maxNum = max,
@@ -22,7 +25,7 @@ function getFibList(max) {
 		prev1 = 1,
 		prev2 = 2,
 		sum,
-		array = [1,2];
+		array = [1, 2];
 	
 	do {
 		sum = prev1 + prev2;

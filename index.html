@@ -5,6 +5,7 @@
 	<script src="pure-functions.js"></script>
 	<script src="prob1.js"></script>
 	<script src="prob2.js"></script>
+	<script src="prob3.js"></script>
 </head>
 <body>
 	<h1>Euler Project</h1>
@@ -17,7 +18,7 @@
 
 Find the sum of all the multiples of 3 or 5 below 1000.
 			<p>
-				<h3 class="solution">
+				<h3 class="answer">
 					Answer: 
 					<script>document.writeln(reduceListByAlgo(numList(1,999), sumMultiplesof3or5));</script>
 				</h3>
@@ -40,7 +41,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 			By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 			<p>
-				<h3 class="solution">
+				<h3 class="answer">
 					Answer: 
 					<script>document.writeln(reduceListByAlgo(getFibList(4000000), sumEvenValuedTerms));</script>
 				</h3>
@@ -60,9 +61,11 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 			<br /><br />
 			What is the largest prime factor of the number 600851475143 ?
 			<p>
-				<h3 class="solution">
+				<h3 class="answer">
 					Answer: 
-					<script>document.writeln('?');</script>
+					<script>
+						document.writeln(prob3Conventional(600851475143));
+					</script>
 				</h3>
 			</p>
 		</div>

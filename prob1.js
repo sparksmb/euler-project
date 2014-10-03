@@ -1,3 +1,5 @@
+/*jslint sloppy: true */
+/*global makeMultipleOf */
 
 /********** Conventional Apporach ***********/
 function prob1Conventional1(max) {

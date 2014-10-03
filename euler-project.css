@@ -8,8 +8,10 @@ body {
 	padding: 10px;
 }
 
-.problem div .solution {
-	color: #259f19;
+.answer {
+	color: #1d880d;
 	font-weight: bold;
 	text-align: center;
+	border: 1px solid #259f19;
+	background-color: #c1f4b4;
 }
